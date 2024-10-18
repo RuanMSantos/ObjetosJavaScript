@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body> 
+    <div class="formulario">
+        <form action="" method="">
+            <fieldset>
+                <legend>Aluno</legend>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+                <label for="data">Data</label>
+                <input type="date" name="data" id="data">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="curso">Curso</label>
+                <input type="text" name="curso" id="curso">
+                <div class="btn">
+                    <input type="button" onclick="Adicionar()" value="Adicionar">
+                    <input type="button" onclick="ViewAluno()" value="Exibir">
+                    <input type="button" onclick="ViewName()" value="Exibir nomes">
+                    <input type="button" onclick="UpdateCursos()" value="Alterar cursos">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

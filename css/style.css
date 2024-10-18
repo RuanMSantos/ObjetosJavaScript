@@ -1,0 +1,18 @@
+* {
+    font-family: 'Comic Sans MS';
+}
+
+.formulario {
+    width: 300px;
+}
+
+fieldset {
+    flex-direction: column;
+    text-align: center;
+    flex-flow: column;
+    display: flex;
+}
+
+legend {
+    font-size: 40px;
+}
